@@ -1,0 +1,11 @@
+{
+	"powers":
+	[
+		"eggmilksoup:egg",
+		"eggmilksoup:friendly"
+	],
+	"name": "Egg Milk Soup",
+	"description": "an egg power, a milk power, and a soup power",
+	"impact": 3,
+	"icon":"minecraft:player_head{skullOwner:\"eggmilksoup\"}"
+}

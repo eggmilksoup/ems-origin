@@ -1,0 +1,1959 @@
+{
+	"type": "origins:multiple",
+	"name": "egg",
+	"description": "obtain spawn eggs using a chicken egg on a mob",
+
+	"glow_squid":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:glow_squid"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:glow_squid_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"fox":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:fox"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:fox_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"donkey":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:donkey"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:donkey_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"cow":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:cow"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:cow_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"cod":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:cod"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:cod_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"chicken":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:chicken"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:chicken_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"cat":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:cat"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:cat_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"horse":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:horse"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:horse_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"bat":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:bat"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:bat_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"axolotl":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:axolotl"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:axolotl_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"salmon":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:salmon"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:salmon_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"pufferfish":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:pufferfish"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:pufferfish_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"rabbit":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:rabbit"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:rabbit_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"polar_bear":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:polar_bear"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:polar_bear_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"pig":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:pig"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:pig_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"piglin":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:piglin"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:piglin_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"ocelot":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:ocelot"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:ocelot_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"mule":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:mule"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:mule_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"mooshroom":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:mooshroom"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:mooshroom_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"parrot":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:parrot"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:parrot_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"wandering_trader":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:wandering_trader"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:wandering_trader_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"sheep":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:sheep"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:sheep_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"skeleton_horse":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:skeleton_horse"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:skeleton_horse_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"villager":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:villager"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:villager_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"snow_golem":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:snow_golem"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:snow_golem_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"squid":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:squid"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:squid_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"strider":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:strider"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:strider_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"tropical_fish":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:tropical_fish"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:tropical_fish_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"turtle":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:turtle"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:turtle_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"goat":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:goat"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:goat_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"enderman":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:enderman"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:enderman_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"llama":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:llama"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:llama_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"cave_spider":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:cave_spider"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:cave_spider_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"bee":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:bee"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:bee_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"panda":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:panda"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:panda_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"zombified_piglin":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:zombified_piglin"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:zombified_piglin_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"spider":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:spider"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:spider_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"wolf":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:wolf"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:wolf_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"dolphin":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:dolphin"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:dolphin_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"trader_llama":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:trader_llama"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:trader_llama_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"zoglin":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:zoglin"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:zoglin_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"wither_skeleton":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:wither_skeleton"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:wither_skeleton_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"witch":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:witch"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:witch_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"blaze":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:blaze"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:blaze_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"drowned":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:drowned"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:drowned_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"creeper":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:creeper"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:creeper_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"endermite":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:endermite"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:endermite_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"evoker":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:evoker"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:evoker_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"ghast":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:ghast"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:ghast_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"guardian":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:guardian"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:guardian_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"hoglin":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:hoglin"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:hoglin_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"husk":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:husk"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:husk_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"phantom":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:phantom"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:phantom_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"piglin_brute":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:piglin_brute"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:piglin_brute_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"magma_cube":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:magma_cube"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:magma_cube_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"ravager":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:ravager"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:ravager_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"shulker":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:shulker"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:shulker_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"silverfish":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:silverfish"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:silverfish_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"skeleton":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:skeleton"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:skeleton_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"vindicator":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:vindicator"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:vindicator_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"vex":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:vex"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:vex_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"stray":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:stray"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:stray_spawn_egg",
+			"amount": 1
+		}
+	},
+
+	"slime":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:slime"
+			}
+		},
+		"item_condition":
+		{
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:egg"
+			}
+		},
+		"held_item_action":
+		{
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"result_stack":
+		{
+			"item": "minecraft:slime_spawn_egg",
+			"amount": 1
+		}
+	}
+
+}
