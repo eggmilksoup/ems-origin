@@ -13,7 +13,7 @@ do
 	"${item}":
 	{
 		"type": "origins:prevent_tiem_use",
-		"item_condition
+		"item_condition":
 		{
 			"type": "origins:ingredient",
 			"ingredient":
@@ -31,7 +31,7 @@ do
 	"${item}":
 	{
 		"type": "origins:prevent_tiem_use",
-		"item_condition
+		"item_condition":
 		{
 			"type": "origins:ingredient",
 			"ingredient":
@@ -49,7 +49,7 @@ do
 	"${item}":
 	{
 		"type": "origins:prevent_tiem_use",
-		"item_condition
+		"item_condition":
 		{
 			"type": "origins:ingredient",
 			"ingredient":
