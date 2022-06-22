@@ -40,302 +40,302 @@
 			[
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:milk_bucket"}
+					"ingredient": {"item": "minecraft:milk_bucket"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:glow_squid_milk"}
+					"ingredient": {"item": "minecraft:glow_squid_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:fox_milk"}
+					"ingredient": {"item": "minecraft:fox_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:donkey_milk"}
+					"ingredient": {"item": "minecraft:donkey_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:cod_milk"}
+					"ingredient": {"item": "minecraft:cod_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:chicken_milk"}
+					"ingredient": {"item": "minecraft:chicken_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:cat_milk"}
+					"ingredient": {"item": "minecraft:cat_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:horse_milk"}
+					"ingredient": {"item": "minecraft:horse_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:bat_milk"}
+					"ingredient": {"item": "minecraft:bat_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:axolotl_milk"}
+					"ingredient": {"item": "minecraft:axolotl_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:salmon_milk"}
+					"ingredient": {"item": "minecraft:salmon_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:pufferfish_milk"}
+					"ingredient": {"item": "minecraft:pufferfish_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:rabbit_milk"}
+					"ingredient": {"item": "minecraft:rabbit_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:polar_bear_milk"}
+					"ingredient": {"item": "minecraft:polar_bear_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:pig_milk"}
+					"ingredient": {"item": "minecraft:pig_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:piglin_milk"}
+					"ingredient": {"item": "minecraft:piglin_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:ocelot_milk"}
+					"ingredient": {"item": "minecraft:ocelot_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:mule_milk"}
+					"ingredient": {"item": "minecraft:mule_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:parrot_milk"}
+					"ingredient": {"item": "minecraft:parrot_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:wandering_trader_milk"}
+					"ingredient": {"item": "minecraft:wandering_trader_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:sheep_milk"}
+					"ingredient": {"item": "minecraft:sheep_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:skeleton_horse_milk"}
+					"ingredient": {"item": "minecraft:skeleton_horse_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:villager_milk"}
+					"ingredient": {"item": "minecraft:villager_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:snow_golem_milk"}
+					"ingredient": {"item": "minecraft:snow_golem_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:squid_milk"}
+					"ingredient": {"item": "minecraft:squid_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:strider_milk"}
+					"ingredient": {"item": "minecraft:strider_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:tropical_fish_milk"}
+					"ingredient": {"item": "minecraft:tropical_fish_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:turtle_milk"}
+					"ingredient": {"item": "minecraft:turtle_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:goat_milk"}
+					"ingredient": {"item": "minecraft:goat_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:enderman_milk"}
+					"ingredient": {"item": "minecraft:enderman_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:llama_milk"}
+					"ingredient": {"item": "minecraft:llama_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:cave_spider_milk"}
+					"ingredient": {"item": "minecraft:cave_spider_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:bee_milk"}
+					"ingredient": {"item": "minecraft:bee_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:panda_milk"}
+					"ingredient": {"item": "minecraft:panda_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:zombified_piglin_milk"}
+					"ingredient": {"item": "minecraft:zombified_piglin_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:spider_milk"}
+					"ingredient": {"item": "minecraft:spider_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:wolf_milk"}
+					"ingredient": {"item": "minecraft:wolf_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:dolphin_milk"}
+					"ingredient": {"item": "minecraft:dolphin_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:trader_llama_milk"}
+					"ingredient": {"item": "minecraft:trader_llama_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:zoglin_milk"}
+					"ingredient": {"item": "minecraft:zoglin_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:wither_skeleton_milk"}
+					"ingredient": {"item": "minecraft:wither_skeleton_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:witch_milk"}
+					"ingredient": {"item": "minecraft:witch_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:blaze_milk"}
+					"ingredient": {"item": "minecraft:blaze_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:drowned_milk"}
+					"ingredient": {"item": "minecraft:drowned_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:creeper_milk"}
+					"ingredient": {"item": "minecraft:creeper_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:endermite_milk"}
+					"ingredient": {"item": "minecraft:endermite_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:evoker_milk"}
+					"ingredient": {"item": "minecraft:evoker_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:ghast_milk"}
+					"ingredient": {"item": "minecraft:ghast_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:guardian_milk"}
+					"ingredient": {"item": "minecraft:guardian_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:hoglin_milk"}
+					"ingredient": {"item": "minecraft:hoglin_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:husk_milk"}
+					"ingredient": {"item": "minecraft:husk_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:phantom_milk"}
+					"ingredient": {"item": "minecraft:phantom_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:piglin_brute_milk"}
+					"ingredient": {"item": "minecraft:piglin_brute_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:magma_cube_milk"}
+					"ingredient": {"item": "minecraft:magma_cube_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:ravager_milk"}
+					"ingredient": {"item": "minecraft:ravager_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:shulker_milk"}
+					"ingredient": {"item": "minecraft:shulker_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:silverfish_milk"}
+					"ingredient": {"item": "minecraft:silverfish_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:skeleton_milk"}
+					"ingredient": {"item": "minecraft:skeleton_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:vindicator_milk"}
+					"ingredient": {"item": "minecraft:vindicator_milk"}
 				},
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"minecraft:vex_milk"}
+					"ingredient": {"item": "minecraft:vex_milk"}
 				}
 			]
 		}
