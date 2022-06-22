@@ -15,6 +15,7 @@
 		"action":
 		{
 			"type": "origins:and",
+			"actions":
 			[
 				{
 					"type": "origins:grant_power",

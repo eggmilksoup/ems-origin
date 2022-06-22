@@ -65,7 +65,7 @@ cat >> soup-connoisseur.json <<EOF
 	"cooked_warthog_meat":
 	{
 		"type": "origins:prevent_tiem_use",
-		"item_condition
+		"item_condition":
 		{
 			"type": "origins:ingredient",
 			"ingredient":
