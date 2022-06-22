@@ -1,0 +1,1877 @@
+{
+	"type": "origins:multiple",
+	"name": "Soup Connoisseur",
+	"description": "can only eat soup",
+
+	"apple":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:apple"
+			}
+		}
+	},
+
+	"baked_potato":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:baked_potato"
+			}
+		}
+	},
+
+	"bamboo":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:bamboo"
+			}
+		}
+	},
+
+	"beetroot":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:beetroot"
+			}
+		}
+	},
+
+	"beetroot_seeds":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:beetroot_seeds"
+			}
+		}
+	},
+
+	"beetroot_soup":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:beetroot_soup"
+			}
+		}
+	},
+
+	"bread":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:bread"
+			}
+		}
+	},
+
+	"cake":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:cake"
+			}
+		}
+	},
+
+	"carrot":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:carrot"
+			}
+		}
+	},
+
+	"chorus_fruit":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:chorus_fruit"
+			}
+		}
+	},
+
+	"cooked_chicken":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:cooked_chicken"
+			}
+		}
+	},
+
+	"cooked_cod":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:cooked_cod"
+			}
+		}
+	},
+
+	"cooked_mutton":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:cooked_mutton"
+			}
+		}
+	},
+
+	"cooked_porkchop":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:cooked_porkchop"
+			}
+		}
+	},
+
+	"cooked_rabbit":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:cooked_rabbit"
+			}
+		}
+	},
+
+	"cooked_salmon":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:cooked_salmon"
+			}
+		}
+	},
+
+	"cookie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:cookie"
+			}
+		}
+	},
+
+	"dried_kelp":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:dried_kelp"
+			}
+		}
+	},
+
+	"honey_bottle":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:honey_bottle"
+			}
+		}
+	},
+
+	"water_bottle":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:water_bottle"
+			}
+		}
+	},
+
+	"potion":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:potion"
+			}
+		}
+	},
+
+	"enchanted_golden_apple":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:enchanted_golden_apple"
+			}
+		}
+	},
+
+	"glow_berries":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:glow_berries"
+			}
+		}
+	},
+
+	"golden_apple":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:golden_apple"
+			}
+		}
+	},
+
+	"golden_carrot":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:golden_carrot"
+			}
+		}
+	},
+
+	"melon_slice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:melon_slice"
+			}
+		}
+	},
+
+	"poisonous_potato":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:poisonous_potato"
+			}
+		}
+	},
+
+	"potato":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:potato"
+			}
+		}
+	},
+
+	"pumpkin_pie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:pumpkin_pie"
+			}
+		}
+	},
+
+	"raw_beef":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:raw_beef"
+			}
+		}
+	},
+
+	"raw_chicken":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:raw_chicken"
+			}
+		}
+	},
+
+	"raw_cod":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:raw_cod"
+			}
+		}
+	},
+
+	"raw_mutton":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:raw_mutton"
+			}
+		}
+	},
+
+	"raw_porkchop":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:raw_porkchop"
+			}
+		}
+	},
+
+	"raw_rabbit":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:raw_rabbit"
+			}
+		}
+	},
+
+	"raw_salmon":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:raw_salmon"
+			}
+		}
+	},
+
+	"rotten_flesh":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:rotten_flesh"
+			}
+		}
+	},
+
+	"seagrass":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:seagrass"
+			}
+		}
+	},
+
+	"spider_eye":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:spider_eye"
+			}
+		}
+	},
+
+	"steak":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:steak"
+			}
+		}
+	},
+
+	"sweet_berries":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:sweet_berries"
+			}
+		}
+	},
+
+	"tropical_fish":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "minecraft:tropical_fish"
+			}
+		}
+	},
+
+	"apple_pie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:apple_pie"
+			}
+		}
+	},
+
+	"sweet_berry_cheesecake":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:sweet_berry_cheesecake"
+			}
+		}
+	},
+
+	"chocolate_pie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:chocolate_pie"
+			}
+		}
+	},
+
+	"roast_chicken":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:roast_chicken"
+			}
+		}
+	},
+
+	"stuffed_pumpkin":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:stuffed_pumpkin"
+			}
+		}
+	},
+
+	"honey_glazed_ham":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:honey_glazed_ham"
+			}
+		}
+	},
+
+	"shepherds_pie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:shepherds_pie"
+			}
+		}
+	},
+
+	"cabbage":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cabbage"
+			}
+		}
+	},
+
+	"tomato":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:tomato"
+			}
+		}
+	},
+
+	"onion":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:onion"
+			}
+		}
+	},
+
+	"fried_egg":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:fried_egg"
+			}
+		}
+	},
+
+	"hot_cocoa":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:hot_cocoa"
+			}
+		}
+	},
+
+	"wheat_dough":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:wheat_dough"
+			}
+		}
+	},
+
+	"raw_pasta":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:raw_pasta"
+			}
+		}
+	},
+
+	"pumpkin_slice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:pumpkin_slice"
+			}
+		}
+	},
+
+	"cabbage_leaf":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cabbage_leaf"
+			}
+		}
+	},
+
+	"minced_beef":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:minced_beef"
+			}
+		}
+	},
+
+	"beef_patty":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:beef_patty"
+			}
+		}
+	},
+
+	"raw_chicken_cuts":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:raw_chicken_cuts"
+			}
+		}
+	},
+
+	"cooked_chicken_cuts":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cooked_chicken_cuts"
+			}
+		}
+	},
+
+	"raw_cod_slice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:raw_cod_slice"
+			}
+		}
+	},
+
+	"cooked_cod_slice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cooked_cod_slice"
+			}
+		}
+	},
+
+	"raw_salmon_slice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:raw_salmon_slice"
+			}
+		}
+	},
+
+	"cooked_salmon_slice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cooked_salmon_slice"
+			}
+		}
+	},
+
+	"raw_mutton_chops":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:raw_mutton_chops"
+			}
+		}
+	},
+
+	"cooked_mutton_chops":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cooked_mutton_chops"
+			}
+		}
+	},
+
+	"ham":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:ham"
+			}
+		}
+	},
+
+	"smoked_ham":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:smoked_ham"
+			}
+		}
+	},
+
+	"pie_crust":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:pie_crust"
+			}
+		}
+	},
+
+	"slice_of_cake":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:slice_of_cake"
+			}
+		}
+	},
+
+	"slice_of_apple_pie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:slice_of_apple_pie"
+			}
+		}
+	},
+
+	"slice_of_sweet_berry_cheesecake":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:slice_of_sweet_berry_cheesecake"
+			}
+		}
+	},
+
+	"slice_of_chocolate_pie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:slice_of_chocolate_pie"
+			}
+		}
+	},
+
+	"sweet_berry_cookie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:sweet_berry_cookie"
+			}
+		}
+	},
+
+	"honey_cookie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:honey_cookie"
+			}
+		}
+	},
+
+	"melon_popsicle":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:melon_popsicle"
+			}
+		}
+	},
+
+	"fruit_salad":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:fruit_salad"
+			}
+		}
+	},
+
+	"mixed_salad":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:mixed_salad"
+			}
+		}
+	},
+
+	"mether_salad":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:mether_salad"
+			}
+		}
+	},
+
+	"barbecue_on_a_stick":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:barbecue_on_a_stick"
+			}
+		}
+	},
+
+	"egg_sandwich":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:egg_sandwich"
+			}
+		}
+	},
+
+	"chicken_sandwich":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:chicken_sandwich"
+			}
+		}
+	},
+
+	"hamburger":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:hamburger"
+			}
+		}
+	},
+
+	"bacon_sandwich":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:bacon_sandwich"
+			}
+		}
+	},
+
+	"mutton_wrap":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:mutton_wrap"
+			}
+		}
+	},
+
+	"dumplings":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:dumplings"
+			}
+		}
+	},
+
+	"stuffed_potato":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:stuffed_potato"
+			}
+		}
+	},
+
+	"cabbage_rolls":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cabbage_rolls"
+			}
+		}
+	},
+
+	"cooked_rice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cooked_rice"
+			}
+		}
+	},
+
+	"fried_rice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:fried_rice"
+			}
+		}
+	},
+
+	"pasta_with_meatballs":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:pasta_with_meatballs"
+			}
+		}
+	},
+
+	"pasta_with_mutton_chop":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:pasta_with_mutton_chop"
+			}
+		}
+	},
+
+	"roasted_mutton_chops":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:roasted_mutton_chops"
+			}
+		}
+	},
+
+	"vegetable_noodles":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:vegetable_noodles"
+			}
+		}
+	},
+
+	"steak_and_potatoes":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:steak_and_potatoes"
+			}
+		}
+	},
+
+	"ratatouille":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:ratatouille"
+			}
+		}
+	},
+
+	"squid_ink_pasta":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:squid_ink_pasta"
+			}
+		}
+	},
+
+	"grilled_salmon":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:grilled_salmon"
+			}
+		}
+	},
+
+	"plate_of_roast_chicken":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:plate_of_roast_chicken"
+			}
+		}
+	},
+
+	"bowl_of_stuffed_pumpkin":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:bowl_of_stuffed_pumpkin"
+			}
+		}
+	},
+
+	"plate_of_honey_glazed_ham":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:plate_of_honey_glazed_ham"
+			}
+		}
+	},
+
+	"plate_of_shepherds_pie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:plate_of_shepherds_pie"
+			}
+		}
+	},
+
+	"dog_food":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:dog_food"
+			}
+		}
+	},
+
+	"asparagus":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:asparagus"
+			}
+		}
+	},
+
+	"sweet_potato":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:sweet_potato"
+			}
+		}
+	},
+
+	"chili_pepper":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:chili_pepper"
+			}
+		}
+	},
+
+	"peanut":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:peanut"
+			}
+		}
+	},
+
+	"baked_sweet_potato":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:baked_sweet_potato"
+			}
+		}
+	},
+
+	"cheese_wheel":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cheese_wheel"
+			}
+		}
+	},
+
+	"cheese_slice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cheese_slice"
+			}
+		}
+	},
+
+	"cheese_sandwich":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cheese_sandwich"
+			}
+		}
+	},
+
+	"grilled_cheese":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:grilled_cheese"
+			}
+		}
+	},
+
+	"peanut_butter":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:peanut_butter"
+			}
+		}
+	},
+
+	"peanut_butter_sandwich":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:peanut_butter_sandwich"
+			}
+		}
+	},
+
+	"peanut_butter_and_honey_sandwich":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:peanut_butter_and_honey_sandwich"
+			}
+		}
+	},
+
+	"peanut_butter_and_sweet_berry_jelly_sandwich":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:peanut_butter_and_sweet_berry_jelly_sandwich"
+			}
+		}
+	},
+
+	"sweet_roll":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:sweet_roll"
+			}
+		}
+	},
+
+	"berry_sweet_roll":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:berry_sweet_roll"
+			}
+		}
+	},
+
+	"glow_berry_sweet_roll":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:glow_berry_sweet_roll"
+			}
+		}
+	},
+
+	"cinnamon_rice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cinnamon_rice"
+			}
+		}
+	},
+
+	"cinnamon_apples":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cinnamon_apples"
+			}
+		}
+	},
+
+	"chocolate_cookie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:chocolate_cookie"
+			}
+		}
+	},
+
+	"sugar_cookie":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:sugar_cookie"
+			}
+		}
+	},
+
+	"snickerdoodle":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:snickerdoodle"
+			}
+		}
+	},
+
+	"apple_juice":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:apple_juice"
+			}
+		}
+	},
+
+	"sweet_berry_jelly":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:sweet_berry_jelly"
+			}
+		}
+	},
+
+	"glow_berry_jelly":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:glow_berry_jelly"
+			}
+		}
+	},
+
+	"peanut_salad":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:peanut_salad"
+			}
+		}
+	},
+
+	"sweet_potato_salad":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:sweet_potato_salad"
+			}
+		}
+	},
+
+	"mac_and_cheese":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:mac_and_cheese"
+			}
+		}
+	},
+
+	"cheesy_asparagus_and_bacon":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:cheesy_asparagus_and_bacon"
+			}
+		}
+	},
+
+	"peperonata":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "farmersdelight:peperonata"
+			}
+		}
+	},
+
+	"mammoth_meat":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:mammoth_meat"
+			}
+		}
+	},
+
+	"cooked_mammoth_meat":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:cooked_mammoth_meat"
+			}
+		}
+	},
+
+	"iguana_meat":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:iguana_meat"
+			}
+		}
+	},
+
+	"cooked_iguana_meat":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:cooked_iguana_meat"
+			}
+		}
+	},
+
+	"rhino_meat":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:rhino_meat"
+			}
+		}
+	},
+
+	"cooked_rhino_meat":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:cooked_rhino_meat"
+			}
+		}
+	},
+
+	"raw_venison":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:raw_venison"
+			}
+		}
+	},
+
+	"cooked_venison":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:cooked_venison"
+			}
+		}
+	},
+
+	"warthog_meat":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:warthog_meat"
+			}
+		}
+	},
+
+	"cooked_warthog_meat":
+	{
+		"type": "origins:prevent_tiem_use",
+		"item_condition
+		{
+			"type": "origins:ingredient",
+			"ingredient":
+			{
+				"item": "adventurez:cooked_warthog_meat"
+			}
+		}
+	}
+}
