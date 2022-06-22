@@ -63,7 +63,7 @@ do
 		{
 			"item": "minecraft:${mob}_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -123,7 +123,7 @@ cat >> egg.json <<EOF
 		{
 			"item": "minecraft:slime_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	}
 }

@@ -56,7 +56,7 @@
 		{
 			"item": "minecraft:glow_squid_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -113,7 +113,7 @@
 		{
 			"item": "minecraft:fox_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -170,7 +170,7 @@
 		{
 			"item": "minecraft:donkey_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -227,7 +227,7 @@
 		{
 			"item": "minecraft:cow_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -284,7 +284,7 @@
 		{
 			"item": "minecraft:cod_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -341,7 +341,7 @@
 		{
 			"item": "minecraft:chicken_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -398,7 +398,7 @@
 		{
 			"item": "minecraft:cat_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -455,7 +455,7 @@
 		{
 			"item": "minecraft:horse_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -512,7 +512,7 @@
 		{
 			"item": "minecraft:bat_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -569,7 +569,7 @@
 		{
 			"item": "minecraft:axolotl_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -626,7 +626,7 @@
 		{
 			"item": "minecraft:salmon_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -683,7 +683,7 @@
 		{
 			"item": "minecraft:pufferfish_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -740,7 +740,7 @@
 		{
 			"item": "minecraft:rabbit_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -797,7 +797,7 @@
 		{
 			"item": "minecraft:polar_bear_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -854,7 +854,7 @@
 		{
 			"item": "minecraft:pig_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -911,7 +911,7 @@
 		{
 			"item": "minecraft:piglin_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -968,7 +968,7 @@
 		{
 			"item": "minecraft:ocelot_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1025,7 +1025,7 @@
 		{
 			"item": "minecraft:mule_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1082,7 +1082,7 @@
 		{
 			"item": "minecraft:mooshroom_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1139,7 +1139,7 @@
 		{
 			"item": "minecraft:parrot_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1196,7 +1196,7 @@
 		{
 			"item": "minecraft:wandering_trader_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1253,7 +1253,7 @@
 		{
 			"item": "minecraft:sheep_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1310,7 +1310,7 @@
 		{
 			"item": "minecraft:skeleton_horse_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1367,7 +1367,7 @@
 		{
 			"item": "minecraft:villager_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1424,7 +1424,7 @@
 		{
 			"item": "minecraft:squid_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1481,7 +1481,7 @@
 		{
 			"item": "minecraft:strider_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1538,7 +1538,7 @@
 		{
 			"item": "minecraft:tropical_fish_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1595,7 +1595,7 @@
 		{
 			"item": "minecraft:turtle_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1652,7 +1652,7 @@
 		{
 			"item": "minecraft:goat_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1709,7 +1709,7 @@
 		{
 			"item": "minecraft:enderman_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1766,7 +1766,7 @@
 		{
 			"item": "minecraft:llama_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1823,7 +1823,7 @@
 		{
 			"item": "minecraft:cave_spider_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1880,7 +1880,7 @@
 		{
 			"item": "minecraft:bee_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1937,7 +1937,7 @@
 		{
 			"item": "minecraft:panda_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -1994,7 +1994,7 @@
 		{
 			"item": "minecraft:zombified_piglin_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2051,7 +2051,7 @@
 		{
 			"item": "minecraft:spider_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2108,7 +2108,7 @@
 		{
 			"item": "minecraft:wolf_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2165,7 +2165,7 @@
 		{
 			"item": "minecraft:dolphin_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2222,7 +2222,7 @@
 		{
 			"item": "minecraft:trader_llama_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2279,7 +2279,7 @@
 		{
 			"item": "minecraft:zoglin_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2336,7 +2336,7 @@
 		{
 			"item": "minecraft:wither_skeleton_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2393,7 +2393,7 @@
 		{
 			"item": "minecraft:witch_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2450,7 +2450,7 @@
 		{
 			"item": "minecraft:blaze_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2507,7 +2507,7 @@
 		{
 			"item": "minecraft:drowned_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2564,7 +2564,7 @@
 		{
 			"item": "minecraft:creeper_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2621,7 +2621,7 @@
 		{
 			"item": "minecraft:endermite_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2678,7 +2678,7 @@
 		{
 			"item": "minecraft:evoker_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2735,7 +2735,7 @@
 		{
 			"item": "minecraft:ghast_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2792,7 +2792,7 @@
 		{
 			"item": "minecraft:guardian_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2849,7 +2849,7 @@
 		{
 			"item": "minecraft:hoglin_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2906,7 +2906,7 @@
 		{
 			"item": "minecraft:husk_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -2963,7 +2963,7 @@
 		{
 			"item": "minecraft:phantom_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3020,7 +3020,7 @@
 		{
 			"item": "minecraft:piglin_brute_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3077,7 +3077,7 @@
 		{
 			"item": "minecraft:magma_cube_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3134,7 +3134,7 @@
 		{
 			"item": "minecraft:ravager_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3191,7 +3191,7 @@
 		{
 			"item": "minecraft:shulker_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3248,7 +3248,7 @@
 		{
 			"item": "minecraft:silverfish_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3305,7 +3305,7 @@
 		{
 			"item": "minecraft:skeleton_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3362,7 +3362,7 @@
 		{
 			"item": "minecraft:vindicator_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3419,7 +3419,7 @@
 		{
 			"item": "minecraft:vex_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3476,7 +3476,7 @@
 		{
 			"item": "minecraft:stray_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3533,7 +3533,7 @@
 		{
 			"item": "minecraft:zombie_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -3590,7 +3590,7 @@
 		{
 			"item": "minecraft:slime_spawn_egg",
 			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup}}"
+			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	}
 }
