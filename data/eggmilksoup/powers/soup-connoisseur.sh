@@ -12,7 +12,7 @@ do
 	cat >> soup-connoisseur.json <<EOF
 	"${item}":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -30,7 +30,7 @@ do
 	cat >> soup-connoisseur.json <<EOF
 	"${item}":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -48,7 +48,7 @@ do
 	cat >> soup-connoisseur.json <<EOF
 	"${item}":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",

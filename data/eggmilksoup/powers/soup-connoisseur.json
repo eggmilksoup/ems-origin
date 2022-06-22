@@ -5,7 +5,7 @@
 
 	"apple":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -18,7 +18,7 @@
 
 	"baked_potato":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -31,7 +31,7 @@
 
 	"bamboo":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -44,7 +44,7 @@
 
 	"beetroot":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -57,7 +57,7 @@
 
 	"beetroot_seeds":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -70,7 +70,7 @@
 
 	"beetroot_soup":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -83,7 +83,7 @@
 
 	"bread":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -96,7 +96,7 @@
 
 	"cake":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -109,7 +109,7 @@
 
 	"carrot":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -122,7 +122,7 @@
 
 	"chorus_fruit":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -135,7 +135,7 @@
 
 	"cooked_chicken":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -148,7 +148,7 @@
 
 	"cooked_cod":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -161,7 +161,7 @@
 
 	"cooked_mutton":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -174,7 +174,7 @@
 
 	"cooked_porkchop":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -187,7 +187,7 @@
 
 	"cooked_rabbit":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -200,7 +200,7 @@
 
 	"cooked_salmon":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -213,7 +213,7 @@
 
 	"cookie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -226,7 +226,7 @@
 
 	"dried_kelp":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -239,7 +239,7 @@
 
 	"honey_bottle":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -252,7 +252,7 @@
 
 	"water_bottle":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -265,7 +265,7 @@
 
 	"potion":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -278,7 +278,7 @@
 
 	"enchanted_golden_apple":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -291,7 +291,7 @@
 
 	"glow_berries":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -304,7 +304,7 @@
 
 	"golden_apple":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -317,7 +317,7 @@
 
 	"golden_carrot":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -330,7 +330,7 @@
 
 	"melon_slice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -343,7 +343,7 @@
 
 	"poisonous_potato":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -356,7 +356,7 @@
 
 	"potato":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -369,7 +369,7 @@
 
 	"pumpkin_pie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -382,7 +382,7 @@
 
 	"raw_beef":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -395,7 +395,7 @@
 
 	"raw_chicken":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -408,7 +408,7 @@
 
 	"raw_cod":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -421,7 +421,7 @@
 
 	"raw_mutton":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -434,7 +434,7 @@
 
 	"raw_porkchop":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -447,7 +447,7 @@
 
 	"raw_rabbit":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -460,7 +460,7 @@
 
 	"raw_salmon":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -473,7 +473,7 @@
 
 	"rotten_flesh":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -486,7 +486,7 @@
 
 	"seagrass":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -499,7 +499,7 @@
 
 	"spider_eye":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -512,7 +512,7 @@
 
 	"steak":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -525,7 +525,7 @@
 
 	"sweet_berries":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -538,7 +538,7 @@
 
 	"tropical_fish":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -551,7 +551,7 @@
 
 	"apple_pie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -564,7 +564,7 @@
 
 	"sweet_berry_cheesecake":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -577,7 +577,7 @@
 
 	"chocolate_pie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -590,7 +590,7 @@
 
 	"roast_chicken":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -603,7 +603,7 @@
 
 	"stuffed_pumpkin":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -616,7 +616,7 @@
 
 	"honey_glazed_ham":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -629,7 +629,7 @@
 
 	"shepherds_pie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -642,7 +642,7 @@
 
 	"cabbage":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -655,7 +655,7 @@
 
 	"tomato":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -668,7 +668,7 @@
 
 	"onion":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -681,7 +681,7 @@
 
 	"fried_egg":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -694,7 +694,7 @@
 
 	"hot_cocoa":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -707,7 +707,7 @@
 
 	"wheat_dough":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -720,7 +720,7 @@
 
 	"raw_pasta":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -733,7 +733,7 @@
 
 	"pumpkin_slice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -746,7 +746,7 @@
 
 	"cabbage_leaf":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -759,7 +759,7 @@
 
 	"minced_beef":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -772,7 +772,7 @@
 
 	"beef_patty":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -785,7 +785,7 @@
 
 	"raw_chicken_cuts":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -798,7 +798,7 @@
 
 	"cooked_chicken_cuts":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -811,7 +811,7 @@
 
 	"raw_cod_slice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -824,7 +824,7 @@
 
 	"cooked_cod_slice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -837,7 +837,7 @@
 
 	"raw_salmon_slice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -850,7 +850,7 @@
 
 	"cooked_salmon_slice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -863,7 +863,7 @@
 
 	"raw_mutton_chops":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -876,7 +876,7 @@
 
 	"cooked_mutton_chops":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -889,7 +889,7 @@
 
 	"ham":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -902,7 +902,7 @@
 
 	"smoked_ham":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -915,7 +915,7 @@
 
 	"pie_crust":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -928,7 +928,7 @@
 
 	"slice_of_cake":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -941,7 +941,7 @@
 
 	"slice_of_apple_pie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -954,7 +954,7 @@
 
 	"slice_of_sweet_berry_cheesecake":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -967,7 +967,7 @@
 
 	"slice_of_chocolate_pie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -980,7 +980,7 @@
 
 	"sweet_berry_cookie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -993,7 +993,7 @@
 
 	"honey_cookie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1006,7 +1006,7 @@
 
 	"melon_popsicle":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1019,7 +1019,7 @@
 
 	"fruit_salad":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1032,7 +1032,7 @@
 
 	"mixed_salad":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1045,7 +1045,7 @@
 
 	"mether_salad":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1058,7 +1058,7 @@
 
 	"barbecue_on_a_stick":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1071,7 +1071,7 @@
 
 	"egg_sandwich":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1084,7 +1084,7 @@
 
 	"chicken_sandwich":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1097,7 +1097,7 @@
 
 	"hamburger":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1110,7 +1110,7 @@
 
 	"bacon_sandwich":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1123,7 +1123,7 @@
 
 	"mutton_wrap":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1136,7 +1136,7 @@
 
 	"dumplings":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1149,7 +1149,7 @@
 
 	"stuffed_potato":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1162,7 +1162,7 @@
 
 	"cabbage_rolls":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1175,7 +1175,7 @@
 
 	"cooked_rice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1188,7 +1188,7 @@
 
 	"fried_rice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1201,7 +1201,7 @@
 
 	"pasta_with_meatballs":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1214,7 +1214,7 @@
 
 	"pasta_with_mutton_chop":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1227,7 +1227,7 @@
 
 	"roasted_mutton_chops":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1240,7 +1240,7 @@
 
 	"vegetable_noodles":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1253,7 +1253,7 @@
 
 	"steak_and_potatoes":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1266,7 +1266,7 @@
 
 	"ratatouille":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1279,7 +1279,7 @@
 
 	"squid_ink_pasta":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1292,7 +1292,7 @@
 
 	"grilled_salmon":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1305,7 +1305,7 @@
 
 	"plate_of_roast_chicken":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1318,7 +1318,7 @@
 
 	"bowl_of_stuffed_pumpkin":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1331,7 +1331,7 @@
 
 	"plate_of_honey_glazed_ham":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1344,7 +1344,7 @@
 
 	"plate_of_shepherds_pie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1357,7 +1357,7 @@
 
 	"dog_food":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1370,7 +1370,7 @@
 
 	"asparagus":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1383,7 +1383,7 @@
 
 	"sweet_potato":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1396,7 +1396,7 @@
 
 	"chili_pepper":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1409,7 +1409,7 @@
 
 	"peanut":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1422,7 +1422,7 @@
 
 	"baked_sweet_potato":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1435,7 +1435,7 @@
 
 	"cheese_wheel":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1448,7 +1448,7 @@
 
 	"cheese_slice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1461,7 +1461,7 @@
 
 	"cheese_sandwich":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1474,7 +1474,7 @@
 
 	"grilled_cheese":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1487,7 +1487,7 @@
 
 	"peanut_butter":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1500,7 +1500,7 @@
 
 	"peanut_butter_sandwich":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1513,7 +1513,7 @@
 
 	"peanut_butter_and_honey_sandwich":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1526,7 +1526,7 @@
 
 	"peanut_butter_and_sweet_berry_jelly_sandwich":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1539,7 +1539,7 @@
 
 	"sweet_roll":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1552,7 +1552,7 @@
 
 	"berry_sweet_roll":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1565,7 +1565,7 @@
 
 	"glow_berry_sweet_roll":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1578,7 +1578,7 @@
 
 	"cinnamon_rice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1591,7 +1591,7 @@
 
 	"cinnamon_apples":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1604,7 +1604,7 @@
 
 	"chocolate_cookie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1617,7 +1617,7 @@
 
 	"sugar_cookie":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1630,7 +1630,7 @@
 
 	"snickerdoodle":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1643,7 +1643,7 @@
 
 	"apple_juice":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1656,7 +1656,7 @@
 
 	"sweet_berry_jelly":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1669,7 +1669,7 @@
 
 	"glow_berry_jelly":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1682,7 +1682,7 @@
 
 	"peanut_salad":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1695,7 +1695,7 @@
 
 	"sweet_potato_salad":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1708,7 +1708,7 @@
 
 	"mac_and_cheese":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1721,7 +1721,7 @@
 
 	"cheesy_asparagus_and_bacon":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1734,7 +1734,7 @@
 
 	"peperonata":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1747,7 +1747,7 @@
 
 	"mammoth_meat":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1760,7 +1760,7 @@
 
 	"cooked_mammoth_meat":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1773,7 +1773,7 @@
 
 	"iguana_meat":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1786,7 +1786,7 @@
 
 	"cooked_iguana_meat":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1799,7 +1799,7 @@
 
 	"rhino_meat":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1812,7 +1812,7 @@
 
 	"cooked_rhino_meat":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1825,7 +1825,7 @@
 
 	"raw_venison":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1838,7 +1838,7 @@
 
 	"cooked_venison":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
@@ -1851,7 +1851,7 @@
 
 	"warthog_meat":
 	{
-		"type": "origins:prevent_tiem_use",
+		"type": "origins:prevent_item_use",
 		"item_condition":
 		{
 			"type": "origins:ingredient",
