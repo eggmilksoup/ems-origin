@@ -23,7 +23,7 @@
 					"source": "eggmilksoup:eggmilksoup"
 				},
 				{
-					"type": "orgins:trigger_cooldown",
+					"type": "origins:trigger_cooldown",
 					"power": "eggmilksoup:friend"
 				}
 			]
