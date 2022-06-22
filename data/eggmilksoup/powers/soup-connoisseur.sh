@@ -7,7 +7,7 @@ cat > soup-connoisseur.json <<EOF
 
 EOF
 
-for item in apple baked_potato, bamboo, beetroot, beetroot_seeds, beetroot_soup, bread, cake, carrot, chorus_fruit, cooked_chicken cooked_cod cooked_mutton cooked_porkchop cooked_rabbit cooked_salmon cookie dried_kelp honey_bottle, water_bottle, potion, enchanted_golden_apple, glow_berries, golden_apple, golden_carrot, melon_slice, poisonous_potato, potato, pumpkin_pie, raw_beef, raw_chicken, raw_cod, raw_mutton, raw_porkchop, raw_rabbit, raw_salmon, rotten_flesh, seagrass, spider_eye, steak, sweet_berries, tropical_fish
+for item in apple baked_potato bamboo beetroot beetroot_seeds beetroot_soup bread cake carrot chorus_fruit cooked_chicken cooked_cod cooked_mutton cooked_porkchop cooked_rabbit cooked_salmon cookie dried_kelp honey_bottle water_bottle potion enchanted_golden_apple glow_berries golden_apple golden_carrot melon_slice poisonous_potato potato pumpkin_pie raw_beef raw_chicken raw_cod raw_mutton raw_porkchop raw_rabbit raw_salmon rotten_flesh seagrass spider_eye steak sweet_berries tropical_fish
 do
 	cat >> soup-connoisseur.json <<EOF
 	"${item}":
@@ -74,6 +74,6 @@ cat >> soup-connoisseur.json <<EOF
 			}
 		}
 	}
-
+}
 EOF
 

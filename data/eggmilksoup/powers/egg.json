@@ -1,7 +1,7 @@
 {
 	"type": "origins:multiple",
-	"name": "egg",
-	"description": "obtain spawn eggs using a chicken egg on a mob",
+	"name": "Egg",
+	"description": "obtain spawn eggs by right clicking on a mob, with a cooldown",
 
 	"glow_squid":
 	{
@@ -11,26 +11,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:glow_squid"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:glow_squid"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:glow_squid_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -42,26 +68,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:fox"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:fox"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:fox_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -73,26 +125,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:donkey"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:donkey"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:donkey_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -104,26 +182,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:cow"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:cow"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:cow_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -135,26 +239,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:cod"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:cod"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:cod_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -166,26 +296,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:chicken"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:chicken"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:chicken_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -197,26 +353,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:cat"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:cat"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:cat_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -228,26 +410,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:horse"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:horse"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:horse_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -259,26 +467,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:bat"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:bat"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:bat_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -290,26 +524,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:axolotl"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:axolotl"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:axolotl_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -321,26 +581,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:salmon"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:salmon"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:salmon_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -352,26 +638,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:pufferfish"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:pufferfish"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:pufferfish_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -383,26 +695,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:rabbit"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:rabbit"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:rabbit_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -414,26 +752,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:polar_bear"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:polar_bear"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:polar_bear_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -445,26 +809,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:pig"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:pig"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:pig_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -476,26 +866,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:piglin"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:piglin"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:piglin_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -507,26 +923,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:ocelot"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:ocelot"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:ocelot_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -538,26 +980,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:mule"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:mule"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:mule_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -569,26 +1037,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:mooshroom"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:mooshroom"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:mooshroom_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -600,26 +1094,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:parrot"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:parrot"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:parrot_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -631,26 +1151,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:wandering_trader"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:wandering_trader"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:wandering_trader_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -662,26 +1208,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:sheep"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:sheep"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:sheep_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -693,26 +1265,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:skeleton_horse"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:skeleton_horse"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:skeleton_horse_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -724,57 +1322,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:villager"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:villager"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:villager_spawn_egg",
-			"amount": 1
-		}
-	},
-
-	"snow_golem":
-	{
-		"type": "origins:action_on_entity_use",
-		"bientity_condition":
-		{
-			"type": "origins:target_condition",
-			"condition":
-			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:snow_golem"
-			}
-		},
-		"item_condition":
-		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
-			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
-		},
-		"result_stack":
-		{
-			"item": "minecraft:snow_golem_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -786,26 +1379,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:squid"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:squid"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:squid_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -817,26 +1436,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:strider"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:strider"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:strider_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -848,26 +1493,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:tropical_fish"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:tropical_fish"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:tropical_fish_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -879,26 +1550,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:turtle"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:turtle"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:turtle_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -910,26 +1607,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:goat"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:goat"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:goat_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -941,26 +1664,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:enderman"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:enderman"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:enderman_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -972,26 +1721,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:llama"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:llama"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:llama_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1003,26 +1778,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:cave_spider"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:cave_spider"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:cave_spider_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1034,26 +1835,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:bee"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:bee"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:bee_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1065,26 +1892,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:panda"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:panda"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:panda_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1096,26 +1949,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:zombified_piglin"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:zombified_piglin"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:zombified_piglin_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1127,26 +2006,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:spider"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:spider"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:spider_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1158,26 +2063,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:wolf"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:wolf"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:wolf_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1189,26 +2120,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:dolphin"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:dolphin"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:dolphin_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1220,26 +2177,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:trader_llama"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:trader_llama"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:trader_llama_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1251,26 +2234,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:zoglin"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:zoglin"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:zoglin_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1282,26 +2291,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:wither_skeleton"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:wither_skeleton"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:wither_skeleton_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1313,26 +2348,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:witch"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:witch"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:witch_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1344,26 +2405,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:blaze"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:blaze"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:blaze_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1375,26 +2462,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:drowned"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:drowned"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:drowned_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1406,26 +2519,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:creeper"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:creeper"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:creeper_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1437,26 +2576,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:endermite"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:endermite"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:endermite_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1468,26 +2633,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:evoker"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:evoker"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:evoker_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1499,26 +2690,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:ghast"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:ghast"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:ghast_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1530,26 +2747,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:guardian"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:guardian"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:guardian_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1561,26 +2804,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:hoglin"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:hoglin"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:hoglin_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1592,26 +2861,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:husk"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:husk"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:husk_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1623,26 +2918,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:phantom"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:phantom"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:phantom_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1654,26 +2975,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:piglin_brute"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:piglin_brute"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:piglin_brute_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1685,26 +3032,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:magma_cube"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:magma_cube"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:magma_cube_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1716,26 +3089,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:ravager"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:ravager"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:ravager_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1747,26 +3146,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:shulker"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:shulker"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:shulker_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1778,26 +3203,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:silverfish"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:silverfish"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:silverfish_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1809,26 +3260,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:skeleton"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:skeleton"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:skeleton_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1840,26 +3317,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:vindicator"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:vindicator"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:vindicator_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1871,26 +3374,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:vex"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:vex"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:vex_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1902,26 +3431,109 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:stray"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:stray"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:stray_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
+		}
+	},
+
+	"zombie":
+	{
+		"type": "origins:action_on_entity_use",
+		"bientity_condition":
+		{
+			"type": "origins:target_condition",
+			"condition":
+			{
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:zombie"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
+			}
+		},
+		"bientity_action":
+		{
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
+			}
+		},
+		"result_stack":
+		{
+			"item": "minecraft:zombie_spawn_egg",
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	},
 
@@ -1933,27 +3545,52 @@
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:entity_type",
-				"entity_type": "minecraft:slime"
+				"type": "origins:and",
+				"conditions":
+				[
+					{
+						"type": "origins:entity_type",
+						"entity_type": "minecraft:slime"
+					},
+					{
+						"type": "origins:command",
+						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
+						"comparison": "!=",
+						"compare_to": 1
+					}
+				]
 			}
 		},
-		"item_condition":
+		"bientity_action":
 		{
-			"type": "origins:ingredient",
-			"ingredient": {
-				"item": "minecraft:egg"
+			"type": "origins:target_action",
+			"action":
+			{
+				"type": "origins:and",
+				"actions":
+				[
+					{
+						"type": "origins:execute_command",
+						"command": "tag @s add noegg"
+					},
+					{
+						"type": "origins:delay",
+						"ticks": 24000,
+						"action":
+						{
+							"type": "origins:execute_command",
+							"command": "tag @s remove noegg"
+						}
+					}
+				]
+					
 			}
-		},
-		"held_item_action":
-		{
-			"type": "origins:consume",
-			"amount": 1
 		},
 		"result_stack":
 		{
 			"item": "minecraft:slime_spawn_egg",
-			"amount": 1
+			"amount": 1,
+			"tag": "{EntityTag:{Team:eggmilksoup}}"
 		}
 	}
-
 }

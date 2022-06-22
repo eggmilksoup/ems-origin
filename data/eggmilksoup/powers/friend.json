@@ -3,20 +3,10 @@
 	"callback":
 	{
 		"type": "origins:action_on_callback",
-		"entity_action_chosen":
-		{
-			"type": "origins:execute_command",
-			"command": "team add mob_friends"
-		},
 		"entity_action_added":
 		{
-			"type": "origins:delay",
-			"ticks": 1,
-			"action":
-			{
-				"type": "origins:execute_command",
-				"command": "team join mob_friends @s"
-			}
+			"type": "origins:execute_command",
+			"command": "team join eggmilksoup @s"
 		},
 		"entity_action_lost":
 		{
@@ -24,42 +14,32 @@
 			"command": "team leave @s"
 		}
 	},
-	"join_team":
+	"cooldown":
 	{
-		"type": "origins:action_over_time",
-		"interval": 20,
-		"entity_action":
+		"type": "origins:cooldown",
+		"cooldown": 6000,
+		"hud_render":
 		{
-			"type": "origins:execute_command",
-			"command": "team join mob_friends @e[type=!player,nbt={HurtByTimestamp:0}]"
+			"should_render": false
 		}
 	},
-	"leave_team":
+	"revoke":
 	{
-		"type": "origins:target_action_on_hit",
-		"entity_action":
+		"type": "origins:action_over_time",
+		"falling action":
 		{
-			"type": "origins:and",
-			"actions":
-			[
-				{
-					"type": "origins:execute_command",
-					"command": "team leave @s[type=!player]"
-				},
-				{
-					"type": "origins:delay",
-					"ticks": 1800,
-					"action":
-					{
-						"type": "origins:execute_command",
-						"command": "team join mob_friends"
-					}
-				}
-			]
+			"type": "origins:revoke_power",
+			"power": "eggmilksoup:friend",
+			"source": "eggmilksoup:eggmilksoup"
 		},
-		"cooldown": 0,
-		"hud_render": { "should_render": false }
+		"condition":
+		{
+			"type": "origins:resource",
+			"resource": "eggmilksoup:friend_cooldown",
+			"comparison": ">",
+			"compare_to": 0
+		}
 	},
-	"name": "Friend of Mobs",
-	"description": "Mobs will allow you to to get up close as long as you don't hurt them."
+	"name": "Friend of Egg Milk Soup",
+	"description": "Egg Milk Soup's spawned mobs won't attack you"
 }

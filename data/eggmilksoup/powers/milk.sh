@@ -2,12 +2,12 @@
 cat > milk.json <<EOF
 {
 	"type": "origins:multiple",
-	"name": "milk",
+	"name": "Milk",
 	"description": "obtain milk using a bucket on a mob",
 
 EOF
 
-for mob in glow_squid fox donkey cod chicken cat horse bat axolotl salmon pufferfish rabbit polar_bear pig piglin ocelot mule parrot wandering_trader sheep skeleton_horse villager snow_golem squid strider tropical_fish turtle goat enderman llama cave_spider bee panda zombified_piglin spider wolf dolphin trader_llama zoglin wither_skeleton witch blaze drowned creeper endermite evoker ghast guardian hoglin husk phantom piglin_brute magma_cube ravager shulker silverfish skeleton vindicator vex stray
+for mob in glow_squid fox donkey cod chicken cat horse bat axolotl salmon pufferfish rabbit polar_bear pig piglin ocelot mule parrot wandering_trader sheep skeleton_horse villager snow_golem squid strider tropical_fish turtle goat enderman llama cave_spider bee panda zombified_piglin spider wolf dolphin trader_llama zoglin wither_skeleton witch blaze drowned creeper endermite evoker ghast guardian hoglin husk phantom piglin_brute magma_cube ravager shulker silverfish skeleton vindicator vex
 do
 	cat >> milk.json <<EOF
 	"${mob}":
@@ -44,7 +44,7 @@ do
 EOF
 done
 cat >> milk.json <<EOF
-	"slime":
+	"stray":
 	{
 		"type": "origins:action_on_entity_use",
 		"bientity_condition":
@@ -53,7 +53,7 @@ cat >> milk.json <<EOF
 			"condition":
 			{
 				"type": "origins:entity_type",
-				"entity_type": "minecraft:slime"
+				"entity_type": "minecraft:stray"
 			}
 		},
 		"item_condition":
@@ -70,7 +70,7 @@ cat >> milk.json <<EOF
 		},
 		"result_stack":
 		{
-			"item": "minecraft:slime_milk",
+			"item": "minecraft:stray_milk",
 			"amount": 1
 		}
 	}

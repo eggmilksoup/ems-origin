@@ -1,0 +1,65 @@
+{
+	"type": "origins:multiple",
+	"callback":
+	{
+		"type": "origins:action_on_callback",
+		"entity_action_chosen":
+		{
+			"type": "origins:and",
+			"actions":
+			[
+				{
+					"type": "origins:execute_command",
+					"command": "team add eggmilksoup"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "team add ems-angry"
+				}
+			]
+		},
+		"entity_action_added":
+		{
+			"type": "origins:delay",
+			"ticks": 1,
+			"action":
+			{
+				"type": "origins:execute_command",
+				"command": "team join eggmilksoup @s"
+			}
+		},
+		"entity_action_lost":
+		{
+			"type": "origins:execute_command",
+			"command": "team leave @s"
+		}
+	},
+	"leave_team":
+	{
+		"type": "origins:target_action_on_hit",
+		"entity_action":
+		{
+			"type": "origins:and",
+			"actions":
+			[
+				{
+					"type": "origins:execute_command",
+					"command": "team join ems-angry @s[team=eggmilksoup]"
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 100,
+					"action":
+					{
+						"type": "origins:execute_command",
+						"command": "team join eggmilksoup @s[team=ems-angry]"
+					}
+				}
+			]
+		},
+		"cooldown": 0,
+		"hud_render": { "should_render": false }
+	},
+	"name": "Mob Children",
+	"description": "mobs that spawn from your spawn eggs will be friendly to you unless you hurt them"
+}

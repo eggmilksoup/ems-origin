@@ -2,8 +2,11 @@
 	"powers":
 	[
 		"eggmilksoup:egg",
-		"eggmilksou:milk",
-		"eggmilksoup:soup"
+		"eggmilksoup:milk",
+		"eggmilksoup:soup",
+		"eggmilksoup:children",
+		"eggmilksoup:soup-connoisseur",
+		"eggmilksoup:friendly"
 	],
 	"name": "Egg Milk Soup",
 	"description": "an egg power, a milk power, and a soup power",
