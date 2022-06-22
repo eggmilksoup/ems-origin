@@ -38,7 +38,8 @@
 			"resource": "eggmilksoup:friend_cooldown",
 			"comparison": ">",
 			"compare_to": 0
-		}
+		},
+		"interval": 20
 	},
 	"name": "Friend of Egg Milk Soup",
 	"description": "Egg Milk Soup's spawned mobs won't attack you"
