@@ -14,14 +14,16 @@
 			"power": "eggmilksoup:milk-thirst_cooldown"
 		}
 	},
-	"cooldown":
+	"milk-level":
 	{
-		"type": "origins:cooldown",
-		"cooldown": 24000,
+		"type": "origins:resource",
+		"max": 1600,
+		"start_value": 1600,
+		"min": 0,
 		"hud_render" :
 		{
 			"should_render": true,
-			"bar_index": 2
+			"bar_index": 1
 		}
 	},
 	"drink-milk":
@@ -31,7 +33,7 @@
 		{
 			"type": "origins:change_resource",
 			"resource": "eggmilksoup:milk-thirst_cooldown",
-			"change": 9600
+			"change": 640
 		},
 		"item_condition":
 		{
@@ -340,20 +342,25 @@
 			]
 		}
 	},
-	"damage":
+	"timer":
 	{
 		"type": "origins:action_over_time",
 		"condition":
 		{
 			"type": "origns:resource",
-			"resource": "eggmilksoup:milk-thirst_cooldown",
+			"resource": "eggmilksoup:milk-thirst_milk-level",
 			"comparison": ">",
-			"compare_to": 0,
-			"inverted": true
+			"compare_to": 0
 		},
-		"entity_action":
+		"if_action":
 		{
-			"type": "damage",
+			"type": "origins:change_resource",
+			"resource": "eggmilksoup:milk-thirst_milk-level",
+			"change": -1
+		},
+		"else_action":
+		{
+			"type": "origins:damage",
 			"amount": 1,
 			"source":
 			{
