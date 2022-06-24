@@ -26,7 +26,7 @@
 	"revoke":
 	{
 		"type": "origins:action_over_time",
-		"falling action":
+		"entity_action":
 		{
 			"type": "origins:revoke_power",
 			"power": "eggmilksoup:friend",
@@ -36,8 +36,8 @@
 		{
 			"type": "origins:resource",
 			"resource": "eggmilksoup:friend_cooldown",
-			"comparison": ">",
-			"compare_to": 0
+			"comparison": "<",
+			"compare_to": 1
 		},
 		"interval": 20
 	},

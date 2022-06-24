@@ -347,10 +347,10 @@
 		{
 			"type": "origns:resource",
 			"resource": "eggmilksoup:milk-thirst_cooldown",
-			"comparison": "=",
-			"compare_to": 0
+			"comparison": "<",
+			"compare_to": 1
 		},
-		"rising_action":
+		"entity_action":
 		{
 			"type": "damage",
 			"amount": 1,
@@ -362,7 +362,7 @@
 				"magic": true
 			}
 		},
-		"interval": 20
+		"interval": 15
 	},
 	"name": "Milk Thirst",
 	"description": "you have to drink milk every once in a while or else you will die"
