@@ -331,29 +331,33 @@
 	"timer":
 	{
 		"type": "origins:action_over_time",
-		"condition":
+		"entity_action":
 		{
-			"type": "origns:resource",
-			"resource": "eggmilksoup:milk-thirst_milk-level",
-			"comparison": ">",
-			"compare_to": 0
-		},
-		"if_action":
-		{
-			"type": "origins:change_resource",
-			"resource": "eggmilksoup:milk-thirst_milk-level",
-			"change": -1
-		},
-		"else_action":
-		{
-			"type": "origins:damage",
-			"amount": 1,
-			"source":
+			"type": "origins:if_else",
+			"condition":
 			{
-				"name": "magic",
-				"bypasses_armor": true,
-				"unblockable": true,
-				"magic": true
+				"type": "origns:resource",
+				"resource": "eggmilksoup:milk-thirst_milk-level",
+				"comparison": ">",
+				"compare_to": 0
+			},
+			"if_action":
+			{
+				"type": "origins:change_resource",
+				"resource": "eggmilksoup:milk-thirst_milk-level",
+				"change": -1
+			},
+			"else_action":
+			{
+				"type": "origins:damage",
+				"amount": 1,
+				"source":
+				{
+					"name": "magic",
+					"bypasses_armor": true,
+					"unblockable": true,
+					"magic": true
+				}
 			}
 		},
 		"interval": 15
