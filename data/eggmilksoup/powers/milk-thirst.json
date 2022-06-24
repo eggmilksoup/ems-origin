@@ -347,8 +347,9 @@
 		{
 			"type": "origns:resource",
 			"resource": "eggmilksoup:milk-thirst_cooldown",
-			"comparison": "<",
-			"compare_to": 1
+			"comparison": ">",
+			"compare_to": 0,
+			"inverted": true
 		},
 		"entity_action":
 		{
