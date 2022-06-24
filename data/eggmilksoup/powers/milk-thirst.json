@@ -336,7 +336,7 @@
 			"type": "origins:if_else",
 			"condition":
 			{
-				"type": "origns:resource",
+				"type": "origins:resource",
 				"resource": "eggmilksoup:milk-thirst_milk-level",
 				"comparison": ">",
 				"compare_to": 0
