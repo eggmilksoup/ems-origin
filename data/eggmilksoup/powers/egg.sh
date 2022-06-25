@@ -44,7 +44,7 @@ do
 					{
 						"type": "origins:resource",
 						"resource": "eggmilksoup:incubate_timer",
-						"comparison": "=",
+						"comparison": "==",
 						"compare_to": 300
 					}
 				},
@@ -128,7 +128,7 @@ cat >> egg.json <<EOF
 					{
 						"type": "origins:resource",
 						"resource": "eggmilksoup:incubate_timer",
-						"comparison": "=",
+						"comparison": "==",
 						"compare_to": 300
 					}
 				},
