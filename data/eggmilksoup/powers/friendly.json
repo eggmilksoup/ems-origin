@@ -1,4 +1,6 @@
 {
+	"name": "Friendly",
+	"description": "right click your friends and your mob children won't attack them",
 	"type": "origins:action_on_entity_use",
 	"bientity_condition":
 	{
@@ -14,19 +16,25 @@
 		"type": "origins:target_action",
 		"action":
 		{
-			"type": "origins:and",
-			"actions":
-			[
-				{
-					"type": "origins:grant_power",
-					"power": "eggmilksoup:friend",
-					"source": "eggmilksoup:eggmilksoup"
-				},
-				{
-					"type": "origins:trigger_cooldown",
-					"power": "eggmilksoup:friend"
-				}
-			]
+			"type": "origins:if_else",
+			"condition": 
+			{
+				"type": "origins:power",
+				"power": "eggmilksoup:friend"
+			},
+			"if_action":
+			{
+				"type": "origins:change_resource",
+				"resource": "eggmilksoup:friend_timer-val",
+				"change": 0,
+				"operation": "set"
+			},
+			"else_action":
+			{
+				"type": "origins:grant_power",
+				"power": "eggmilksoup:friend",
+				"source": "eggmilksoup:eggmilksoup"
+			}
 		}
 	}
 }

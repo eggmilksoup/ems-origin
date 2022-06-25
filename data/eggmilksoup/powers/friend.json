@@ -14,13 +14,25 @@
 			"command": "team leave @s"
 		}
 	},
-	"cooldown":
+	"timer-val":
 	{
-		"type": "origins:cooldown",
-		"cooldown": 6000,
+		"type": "origins:resource",
+		"min": 0,
+		"max": 300,
 		"hud_render":
 		{
 			"should_render": false
+		}
+	},
+	"timer":
+	{
+		"type": "origins:action_over_time",
+		"interval": 20,
+		"entity_action":
+		{
+			"type": "origins:change_resource",
+			"resource": "eggmilksoup:friend_timer-val",
+			"change": 1
 		}
 	},
 	"revoke":
