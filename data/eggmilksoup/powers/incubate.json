@@ -1,0 +1,41 @@
+{
+	"type": "origins:multiple",
+	"name": "Incubate",
+	"description": "after a delay, Egg Milk Soup can harvest your spawn egg",
+	"timer":
+	{
+		"type": "origins:resource",
+		"min": 0,
+		"max": 300
+	},
+	"egg-ready":
+	{
+		"type": "origins:action_over_time",
+		"condition":
+		{
+			"type": "origins:resource",
+			"resource": "eggmilksoup:incubate_timer",
+			"comparison": "=",
+			"compare_to": 300
+		},
+		"entity_action":
+		{
+			"type": "origins:spawn_particles",
+			"particle": "minecraft:entity_effect",
+			"count": 4,
+			"speed": 0.2
+		},
+		"interval": 4
+	},
+	"tick":
+	{
+		"type": "origins:action_over_time",
+		"entity_action":
+		{
+			"type": "origins:change_resource",
+			"resource": "eggmilksoup:incubate_timer",
+			"change": 1
+		},
+		"interval": 20
+	}
+}

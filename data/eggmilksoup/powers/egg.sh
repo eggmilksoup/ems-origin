@@ -18,52 +18,76 @@ do
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:and",
-				"conditions":
-				[
-					{
-						"type": "origins:entity_type",
-						"entity_type": "minecraft:${mob}"
-					},
-					{
-						"type": "origins:command",
-						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
-						"comparison": "!=",
-						"compare_to": 1
-					}
-				]
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:${mob}"
 			}
 		},
 		"bientity_action":
 		{
-			"type": "origins:target_action",
-			"action":
+			"type": "origins:if_else",
+			"condition":
 			{
-				"type": "origins:and",
-				"actions":
-				[
+				"type": "origins:target_condition",
+				"condition":
+				{
+					"type": "origins:power",
+					"power": "eggmilksoup:incubate"
+				}
+			},
+			"if_action":
+			{
+				"type": "origins:if_else",
+				"condition":
+				{
+					"type": "origins:target_condition",
+					"condition":
 					{
-						"type": "origins:execute_command",
-						"command": "tag @s add noegg"
-					},
-					{
-						"type": "origins:delay",
-						"ticks": 24000,
-						"action":
-						{
-							"type": "origins:execute_command",
-							"command": "tag @s remove noegg"
-						}
+						"type": "origins:resource",
+						"resource": "eggmilksoup:incubate_timer",
+						"comparison": "=",
+						"compare_to": 300
 					}
-				]
-					
+				},
+				"if_action":
+				{
+					"type": "origins:and",
+					"actions":
+					[
+						{
+							"type": "origins:target_action",
+							"action":
+							{
+								"type": "origins:change_resource",
+								"resource": "eggmilksoup:incubate_timer",
+								"change": 0,
+								"operation": "set"
+							}
+						},
+						{
+							"type": "origins:actor_action",
+							"action":
+							{
+								"type": "origins:give",
+								"stack":
+								{
+									"item": "minecraft:${mob}_spawn_egg",
+									"amount": 1,
+									"tag": "{EntityTag:{Team:eggmilksoup}}"
+								}
+							}
+						}
+					]
+				}
+			},
+			"else_action":
+			{
+				"type": "origins:target_action",
+				"action":
+				{
+					"type": "origins:grant_power",
+					"power": "origins:incubate"
+				}
 			}
-		},
-		"result_stack":
-		{
-			"item": "minecraft:${mob}_spawn_egg",
-			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	},
 
@@ -78,52 +102,76 @@ cat >> egg.json <<EOF
 			"type": "origins:target_condition",
 			"condition":
 			{
-				"type": "origins:and",
-				"conditions":
-				[
-					{
-						"type": "origins:entity_type",
-						"entity_type": "minecraft:slime"
-					},
-					{
-						"type": "origins:command",
-						"command": "execute if entity @s[nbt={Tags:[noegg]}]",
-						"comparison": "!=",
-						"compare_to": 1
-					}
-				]
+				"type": "origins:entity_type",
+				"entity_type": "minecraft:slime"
 			}
 		},
 		"bientity_action":
 		{
-			"type": "origins:target_action",
-			"action":
+			"type": "origins:if_else",
+			"condition":
 			{
-				"type": "origins:and",
-				"actions":
-				[
+				"type": "origins:target_condition",
+				"condition":
+				{
+					"type": "origins:power",
+					"power": "eggmilksoup:incubate"
+				}
+			},
+			"if_action":
+			{
+				"type": "origins:if_else",
+				"condition":
+				{
+					"type": "origins:target_condition",
+					"condition":
 					{
-						"type": "origins:execute_command",
-						"command": "tag @s add noegg"
-					},
-					{
-						"type": "origins:delay",
-						"ticks": 24000,
-						"action":
-						{
-							"type": "origins:execute_command",
-							"command": "tag @s remove noegg"
-						}
+						"type": "origins:resource",
+						"resource": "eggmilksoup:incubate_timer",
+						"comparison": "=",
+						"compare_to": 300
 					}
-				]
-					
+				},
+				"if_action":
+				{
+					"type": "origins:and",
+					"actions":
+					[
+						{
+							"type": "origins:target_action",
+							"action":
+							{
+								"type": "origins:change_resource",
+								"resource": "eggmilksoup:incubate_timer",
+								"change": 0,
+								"operation": "set"
+							}
+						},
+						{
+							"type": "origins:actor_action",
+							"action":
+							{
+								"type": "origins:give",
+								"stack":
+								{
+									"item": "minecraft:slime_spawn_egg",
+									"amount": 1,
+									"tag": "{EntityTag:{Team:eggmilksoup}}"
+								}
+							}
+						}
+					]
+				}
+			},
+			"else_action":
+			{
+				"type": "origins:target_action",
+				"action":
+				{
+					"type": "origins:grant_power",
+					"power": "origins:incubate"
+				}
 			}
-		},
-		"result_stack":
-		{
-			"item": "minecraft:slime_spawn_egg",
-			"amount": 1,
-			"tag": "{EntityTag:{Team:eggmilksoup,Tags:[noegg]}}"
 		}
 	}
 }
