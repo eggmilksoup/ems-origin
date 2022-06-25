@@ -85,7 +85,8 @@ do
 				"action":
 				{
 					"type": "origins:grant_power",
-					"power": "origins:incubate"
+					"power": "origins:incubate",
+					"source": "eggmilksoup:eggmilksoup"
 				}
 			}
 		}
@@ -169,7 +170,8 @@ cat >> egg.json <<EOF
 				"action":
 				{
 					"type": "origins:grant_power",
-					"power": "origins:incubate"
+					"power": "origins:incubate",
+					"source": "eggmilksoup:eggmilksoup"
 				}
 			}
 		}
