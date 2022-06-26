@@ -7,7 +7,7 @@
 	},
 	"modifier":
 	{
-		"operation": "multiply_base_multiplicative",
+		"operation": "multiply_total",
 		"value": 0.5
 	},
 	"name": "Soup Sensitive",
