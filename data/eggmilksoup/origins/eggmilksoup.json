@@ -7,7 +7,8 @@
 		"eggmilksoup:children",
 		"eggmilksoup:soup-connoisseur",
 		"eggmilksoup:milk-thirst",
-		"eggmilksoup:friendly"
+		"eggmilksoup:friendly",
+		"eggmilksoup:soup-sensitive"
 	],
 	"name": "Egg Milk Soup",
 	"description": "an egg power, a milk power, and a soup power",
