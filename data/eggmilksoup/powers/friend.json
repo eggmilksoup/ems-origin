@@ -47,7 +47,7 @@
 		"condition":
 		{
 			"type": "origins:resource",
-			"resource": "eggmilksoup:friend_cooldown",
+			"resource": "eggmilksoup:friend_timer-val",
 			"comparison": "==",
 			"compare_to": 300
 		},
