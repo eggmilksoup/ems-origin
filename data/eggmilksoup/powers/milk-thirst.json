@@ -168,11 +168,6 @@
 
 				{
 					"type": "origins:ingredient",
-					"ingredient": {"item": "minecraft:goat_milk"}
-				},
-
-				{
-					"type": "origins:ingredient",
 					"ingredient": {"item": "minecraft:enderman_milk"}
 				},
 
