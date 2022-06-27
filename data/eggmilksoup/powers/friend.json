@@ -48,8 +48,8 @@
 		{
 			"type": "origins:resource",
 			"resource": "eggmilksoup:friend_cooldown",
-			"comparison": "<",
-			"compare_to": 1
+			"comparison": "==",
+			"compare_to": 300
 		},
 		"interval": 20
 	},
